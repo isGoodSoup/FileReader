@@ -14,8 +14,8 @@ public class FileReader {
 	 * @return File's lines list
 	 * @throws IOException
 	 */
-	public List<String> readFile(String archivo) throws IOException {
-		String file = Files.readString(Paths.get(archivo));
-		return file.lines().toList();
+	public List<String> readFile(String file) throws IOException {
+		String lines = Files.readString(Paths.get(file));
+		return lines.lines().toList();
 	}
 }
