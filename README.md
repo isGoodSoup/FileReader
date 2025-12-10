@@ -1,7 +1,7 @@
-#FileReader
+# FileReader
 A small Java 21 utility for reading a text file into a `List<String>`.
 
-##Usage
+## Usage
 ```java
-List<String> lines = reader.readFile(Path.of("file.txt"));
+List<String> lines = reader.readFile("./file.txt");
 ```
